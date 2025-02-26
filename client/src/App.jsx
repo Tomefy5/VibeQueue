@@ -4,7 +4,7 @@ import VibeQueuePage from "./pages/VibeQueuePage";
 function App() {
 
   return (
-    <div>
+    <div className="absolute w-full h-full p-2">
       <Routes>
         <Route path="/" element={<VibeQueuePage/>}  />
       </Routes>
